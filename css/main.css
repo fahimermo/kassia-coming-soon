@@ -13,29 +13,44 @@ Primary use:
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Thin;
-  src: url('../fonts/Montserrat/Montserrat-Thin.ttf'); 
+  src: url('../fonts/Montserrat/Montserrat-Thin.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
 @font-face {
   font-family: Quantico-Regular;
-  src: url('../fonts/Quantico/Quantico-Regular.ttf'); 
+  src: url('../fonts/Quantico/Quantico-Regular.ttf');
 }
 
+h1 {
+  font-family: 'Russo One', sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.logo img {
+  width: 80%;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
-.container {max-width: 1200px;}
+.container {
+  max-width: 1200px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -81,7 +96,7 @@ Primary use:
 }
 
 .flip-clock-wrapper ul li a div div.inn {
-  font-family:  Quantico-Regular;
+  font-family: Quantico-Regular;
   color: #fff;
   font-size: 120px;
   font-weight: unset;
@@ -102,7 +117,7 @@ Primary use:
   text-shadow: 0 0px 0px #000;
   background-color: #0d1629;
   border-radius: 10px;
-} 
+}
 
 .flip-clock-wrapper ul li a div .shadow {
   border-radius: 10px;
@@ -186,7 +201,7 @@ Primary use:
   .flip-clock-divider.days {
     width: 10px;
   }
-  
+
 
   .flip-clock-divider.minutes {
     width: 10px;
@@ -219,7 +234,9 @@ Primary use:
 
 /*==================================================================
 [ Color ]*/
-.cl0 {color: #fff;}
+.cl0 {
+  color: #fff;
+}
 
 
 
@@ -290,7 +307,9 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+.bg0 {
+  background-color: #fff;
+}
 
 .bg-img1 {
   background-position: center;
@@ -320,16 +339,28 @@ Primary use:
 /*==================================================================
  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
 ==================================================================*/
-.placeholder0::-webkit-input-placeholder { color: #999999;}
-.placeholder0:-moz-placeholder { color: #999999;}
-.placeholder0::-moz-placeholder { color: #999999;}
-.placeholder0:-ms-input-placeholder { color: #999999;}
+.placeholder0::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.placeholder0:-moz-placeholder {
+  color: #999999;
+}
+
+.placeholder0::-moz-placeholder {
+  color: #999999;
+}
+
+.placeholder0:-ms-input-placeholder {
+  color: #999999;
+}
 
 /*---------------------------------------------*/
 .overlay1 {
   position: relative;
   z-index: 1;
 }
+
 .overlay1::before {
   content: "";
   display: block;
@@ -339,11 +370,11 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: #7579ff;
-  background: -webkit-linear-gradient(top, #b224ef, #7579ff);
-  background: -o-linear-gradient(top, #b224ef, #7579ff);
-  background: -moz-linear-gradient(top, #b224ef, #7579ff);
-  background: linear-gradient(top, #b224ef, #7579ff);
+  background: #1d1d2e;
+  background: -webkit-linear-gradient(top, #1d1d2e, #1d1d2e);
+  background: -o-linear-gradient(top, #1d1d2e, #1d1d2e);
+  background: -moz-linear-gradient(top, #1d1d2e, #1d1d2e);
+  background: linear-gradient(top, #1d1d2e, #1d1d2e);
   opacity: 0.8;
 }
 
@@ -378,16 +409,32 @@ Primary use:
 
 /*------------------------------------------------------------------
 [ Focus ]*/
-.focus-in0:focus::-webkit-input-placeholder { color:transparent; }
-.focus-in0:focus:-moz-placeholder { color:transparent; }
-.focus-in0:focus::-moz-placeholder { color:transparent; }
-.focus-in0:focus:-ms-input-placeholder { color:transparent; }
+.focus-in0:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.focus-in0:focus:-moz-placeholder {
+  color: transparent;
+}
+
+.focus-in0:focus::-moz-placeholder {
+  color: transparent;
+}
+
+.focus-in0:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
 
 /*------------------------------------------------------------------
 [ Hover ]*/
-.hov-cl0:hover {color: #fff;}
-.hov-bg0:hover {background-color: #fff;}
+.hov-cl0:hover {
+  color: #fff;
+}
+
+.hov-bg0:hover {
+  background-color: #fff;
+}
 
 /*---------------------------------------------*/
 
@@ -407,23 +454,69 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ XL ]*/
 @media (max-width: 1200px) {
-  .m-0-xl {margin: 0;}
-  .m-lr-0-xl {margin-left: 0; margin-right: 0;}
-  .m-lr-15-xl {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-xl {margin-left: 0;}
-  .m-r-0-xl {margin-right: 0;}
-  .m-l-15-xl {margin-left: 15px;}
-  .m-r-15-xl {margin-right: 15px;}
+  .m-0-xl {
+    margin: 0;
+  }
 
-  .p-0-xl {padding: 0;}
-  .p-lr-0-xl {padding-left: 0; padding-right: 0;}
-  .p-lr-15-xl {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-xl {padding-left: 0;}
-  .p-r-0-xl {padding-right: 0;}
-  .p-l-15-xl {padding-left: 15px;}
-  .p-r-15-xl {padding-right: 15px;}
+  .m-lr-0-xl {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-  .w-full-xl {width: 100%;}
+  .m-lr-15-xl {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .m-l-0-xl {
+    margin-left: 0;
+  }
+
+  .m-r-0-xl {
+    margin-right: 0;
+  }
+
+  .m-l-15-xl {
+    margin-left: 15px;
+  }
+
+  .m-r-15-xl {
+    margin-right: 15px;
+  }
+
+  .p-0-xl {
+    padding: 0;
+  }
+
+  .p-lr-0-xl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-lr-15-xl {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-l-0-xl {
+    padding-left: 0;
+  }
+
+  .p-r-0-xl {
+    padding-right: 0;
+  }
+
+  .p-l-15-xl {
+    padding-left: 15px;
+  }
+
+  .p-r-15-xl {
+    padding-right: 15px;
+  }
+
+  .w-full-xl {
+    width: 100%;
+  }
 
   /*---------------------------------------------*/
 
@@ -433,23 +526,69 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
 @media (max-width: 992px) {
-  .m-0-lg {margin: 0;}
-  .m-lr-0-lg {margin-left: 0; margin-right: 0;}
-  .m-lr-15-lg {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-lg {margin-left: 0;}
-  .m-r-0-lg {margin-right: 0;}
-  .m-l-15-lg {margin-left: 15px;}
-  .m-r-15-lg {margin-right: 15px;}
+  .m-0-lg {
+    margin: 0;
+  }
 
-  .p-0-lg {padding: 0;}
-  .p-lr-0-lg {padding-left: 0; padding-right: 0;}
-  .p-lr-15-lg {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-lg {padding-left: 0;}
-  .p-r-0-lg{padding-right: 0;}
-  .p-l-15-lg {padding-left: 15px;}
-  .p-r-15-lg {padding-right: 15px;}
+  .m-lr-0-lg {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-  .w-full-lg {width: 100%;}
+  .m-lr-15-lg {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .m-l-0-lg {
+    margin-left: 0;
+  }
+
+  .m-r-0-lg {
+    margin-right: 0;
+  }
+
+  .m-l-15-lg {
+    margin-left: 15px;
+  }
+
+  .m-r-15-lg {
+    margin-right: 15px;
+  }
+
+  .p-0-lg {
+    padding: 0;
+  }
+
+  .p-lr-0-lg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-lr-15-lg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-l-0-lg {
+    padding-left: 0;
+  }
+
+  .p-r-0-lg {
+    padding-right: 0;
+  }
+
+  .p-l-15-lg {
+    padding-left: 15px;
+  }
+
+  .p-r-15-lg {
+    padding-right: 15px;
+  }
+
+  .w-full-lg {
+    width: 100%;
+  }
 
   /*---------------------------------------------*/
 
@@ -460,23 +599,70 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ MD ]*/
 @media (max-width: 768px) {
-  .m-0-md {margin: 0;}
-  .m-lr-0-md {margin-left: 0; margin-right: 0;}
-  .m-lr-15-md {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-md {margin-left: 0;}
-  .m-r-0-md {margin-right: 0;}
-  .m-l-15-md {margin-left: 15px;}
-  .m-r-15-md {margin-right: 15px;}
+  .m-0-md {
+    margin: 0;
+  }
 
-  .p-0-md {padding: 0;}
-  .p-lr-0-md {padding-left: 0; padding-right: 0;}
-  .p-lr-15-md {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-md {padding-left: 0;}
-  .p-r-0-md{padding-right: 0;}
-  .p-l-15-md {padding-left: 15px;}
-  .p-r-15-md {padding-right: 15px;}
+  .m-lr-0-md {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-  .w-full-md {width: 100%;}
+  .m-lr-15-md {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .m-l-0-md {
+    margin-left: 0;
+  }
+
+  .m-r-0-md {
+    margin-right: 0;
+  }
+
+  .m-l-15-md {
+    margin-left: 15px;
+  }
+
+  .m-r-15-md {
+    margin-right: 15px;
+  }
+
+  .p-0-md {
+    padding: 0;
+  }
+
+  .p-lr-0-md {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-lr-15-md {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-l-0-md {
+    padding-left: 0;
+  }
+
+  .p-r-0-md {
+    padding-right: 0;
+  }
+
+  .p-l-15-md {
+    padding-left: 15px;
+  }
+
+  .p-r-15-md {
+    padding-right: 15px;
+  }
+
+  .w-full-md {
+    width: 100%;
+  }
+
   /*---------------------------------------------*/
 
 }
@@ -485,53 +671,146 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ SM ]*/
 @media (max-width: 576px) {
-  .m-0-sm {margin: 0;}
-  .m-lr-0-sm {margin-left: 0; margin-right: 0;}
-  .m-lr-15-sm {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-sm {margin-left: 0;}
-  .m-r-0-sm {margin-right: 0;}
-  .m-l-15-sm {margin-left: 15px;}
-  .m-r-15-sm {margin-right: 15px;}
+  .m-0-sm {
+    margin: 0;
+  }
 
-  .p-0-sm {padding: 0;}
-  .p-lr-0-sm {padding-left: 0; padding-right: 0;}
-  .p-lr-15-sm {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-sm {padding-left: 0;}
-  .p-r-0-sm{padding-right: 0;}
-  .p-l-15-sm {padding-left: 15px;}
-  .p-r-15-sm {padding-right: 15px;}
+  .m-lr-0-sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-  .w-full-sm {width: 100%;}
+  .m-lr-15-sm {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .m-l-0-sm {
+    margin-left: 0;
+  }
+
+  .m-r-0-sm {
+    margin-right: 0;
+  }
+
+  .m-l-15-sm {
+    margin-left: 15px;
+  }
+
+  .m-r-15-sm {
+    margin-right: 15px;
+  }
+
+  .p-0-sm {
+    padding: 0;
+  }
+
+  .p-lr-0-sm {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-lr-15-sm {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-l-0-sm {
+    padding-left: 0;
+  }
+
+  .p-r-0-sm {
+    padding-right: 0;
+  }
+
+  .p-l-15-sm {
+    padding-left: 15px;
+  }
+
+  .p-r-15-sm {
+    padding-right: 15px;
+  }
+
+  .w-full-sm {
+    width: 100%;
+  }
 
   /*---------------------------------------------*/
   .respon1 {
     padding-top: 80px;
     padding-bottom: 100px;
   }
-  
+
 }
 
 
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
 @media (max-width: 480px) {
-  .m-0-ssm {margin: 0;}
-  .m-lr-0-ssm {margin-left: 0; margin-right: 0;}
-  .m-lr-15-ssm {margin-left: 15px; margin-right: 15px;}
-  .m-l-0-ssm {margin-left: 0;}
-  .m-r-0-ssm {margin-right: 0;}
-  .m-l-15-ssm {margin-left: 15px;}
-  .m-r-15-ssm {margin-right: 15px;}
+  .m-0-ssm {
+    margin: 0;
+  }
 
-  .p-0-ssm {padding: 0;}
-  .p-lr-0-ssm {padding-left: 0; padding-right: 0;}
-  .p-lr-15-ssm {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-ssm {padding-left: 0;}
-  .p-r-0-ssm{padding-right: 0;}
-  .p-l-15-ssm {padding-left: 15px;}
-  .p-r-15-ssm {padding-right: 15px;}
+  .m-lr-0-ssm {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-  .w-full-ssm {width: 100%;}
+  .m-lr-15-ssm {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .m-l-0-ssm {
+    margin-left: 0;
+  }
+
+  .m-r-0-ssm {
+    margin-right: 0;
+  }
+
+  .m-l-15-ssm {
+    margin-left: 15px;
+  }
+
+  .m-r-15-ssm {
+    margin-right: 15px;
+  }
+
+  .p-0-ssm {
+    padding: 0;
+  }
+
+  .p-lr-0-ssm {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .p-lr-15-ssm {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-l-0-ssm {
+    padding-left: 0;
+  }
+
+  .p-r-0-ssm {
+    padding-right: 0;
+  }
+
+  .p-l-15-ssm {
+    padding-left: 15px;
+  }
+
+  .p-r-15-ssm {
+    padding-right: 15px;
+  }
+
+  .w-full-ssm {
+    width: 100%;
+  }
+
   /*---------------------------------------------*/
 
 }
